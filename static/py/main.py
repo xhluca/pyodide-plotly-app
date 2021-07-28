@@ -8,7 +8,7 @@ import pandas as pd
 import plotly.express as px
 import pyodide
 from pyodide import to_js
-from pyodide_ui import html
+import pyodide_html as html
 
 
 def radio_group(*options, **attributes):
